@@ -20,7 +20,7 @@ After forking the repo, you should now be viewing this README in your own github
 
 Click this button to deploy the app to the DigitalOcean App Platform.
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/{klawrow}/{picture-memory-do-vue}/tree/{main})
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/klawrow/picture-memory-do-vue/tree/main)
 
 ## Making Changes to Your App
 
