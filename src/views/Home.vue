@@ -13,6 +13,31 @@
           </div>
         </div>
       </section>
+      <section class="is-flex m-3 is-justify-content-center">
+        <div>
+          <div class="mt-5">
+            <router-link
+              tag="button"
+              class="button is-success is-large"
+              :to="{ name: 'Input', params: { s: 3 } }"
+            >
+              <i class="fas fa-hourglass-half mr-3"></i>
+              <span>Show For 3 Seconds</span>
+            </router-link>
+          </div>
+
+          <div class="mt-5">
+            <router-link
+              tag="button"
+              class="button is-success is-large"
+              :to="{ name: 'Input', params: { s: 5 } }"
+            >
+              <i class="fas fa-hourglass-half mr-3"></i>
+              <span>Show For 5 Seconds</span>
+            </router-link>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
