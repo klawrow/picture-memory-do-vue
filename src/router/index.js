@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Input from "../views/Input.vue";
+import Result from "../views/Result.vue";
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,12 @@ const routes = [
     name: "Input",
     component: Input,
     props: (r) => ({ s: parseInt(r.params.s) }),
+  },
+  {
+    path: "/result/",
+    name: "Result",
+    component: Result,
+    props: true,
   },
   {
     path: "/about",
