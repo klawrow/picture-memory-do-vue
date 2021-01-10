@@ -29,12 +29,29 @@
       <img :src="imageDetail.url" title="random image" />
     </section>
     <section class="is-flex m-3 is-justify-content-center">
-      <a :href="buyMeCoffee" target="_blank"
-        ><img
-          src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png"
-          alt="Buy Me A Coffee"
-          style="height: 60px !important;width: 217px !important;"
-      /></a>
+      <div>
+        <div class="mt-5">
+          <router-link tag="button" class="button is-success is-medium" to="/">
+            <span>Start Over</span>
+          </router-link>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="subtitle">
+            Let me know what you think via Twitter.
+          </h2>
+
+          <a :href="buyMeCoffee" target="_blank"
+            ><img
+              src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png"
+              alt="Buy Me A Coffee"
+              style="height: 60px !important;width: 217px !important;"
+          /></a>
+        </div>
+      </div>
     </section>
   </div>
 </template>
