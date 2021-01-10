@@ -8,7 +8,8 @@
               Welcome to the Picture Memory App!
             </h1>
             <h2 class="subtitle">
-              Click a button below to display a random picture for you describe
+              Click a button below to display a random picture for you to
+              describe.
             </h2>
           </div>
         </div>
