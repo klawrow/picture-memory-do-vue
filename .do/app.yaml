@@ -1,9 +1,9 @@
-name: sample-vuejs
+name: picture-memory-do-vue
 services:
-- build_command: yarn build
-  environment_slug: node-js
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: digitalocean/sample-vuejs
-  name: sample-vuejs
+  - build_command: yarn build
+    environment_slug: node-js
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: klawrow/picture-memory-do-vue
+    name: picture-memory-do-vue
