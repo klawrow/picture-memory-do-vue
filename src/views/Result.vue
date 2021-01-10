@@ -7,25 +7,27 @@
             How did you do?
           </h1>
           <h2 class="subtitle">
-            Compare the image and your description.
+            Compare your description and the image.
           </h2>
+        </div>
+      </div>
+    </section>
+    <section class="is-flex m-3 is-justify-content-center">
+      <div class="container">
+        <div class="field">
+          <div class="control">
+            <textarea
+              class="textarea is-primary"
+              v-model="imageDetail.description"
+              readonly
+            ></textarea>
+          </div>
         </div>
       </div>
     </section>
     <section class="is-flex m-3 is-justify-content-center">
       <img :src="imageDetail.url" title="random image" />
     </section>
-    <div class="container">
-      <div class="field">
-        <div class="control">
-          <textarea
-            class="textarea is-primary"
-            v-model="imageDetail.description"
-            disabled
-          ></textarea>
-        </div>
-      </div>
-    </div>
     <section class="is-flex m-3 is-justify-content-center">
       <a :href="buyMeCoffee" target="_blank"
         ><img
