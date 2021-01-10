@@ -24,6 +24,20 @@
             <span>You have {{ charsRemaining }} characters remaining.</span>
           </div>
         </div>
+        <section class="is-flex m-3 is-justify-content-center">
+          <div>
+            <div class="mt-5">
+              <router-link
+                tag="button"
+                class="button is-success is-medium"
+                :to="{ name: 'Result', params: { imageDetail } }"
+              >
+                <i class="far fa-paper-plane mr-3"></i>
+                <span>Submit</span>
+              </router-link>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </div>
